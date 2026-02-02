@@ -18,5 +18,6 @@ public class Duplicate {
 
 		}
 		System.out.println(result);
+		System.out.println("Result");
 	}
 }
