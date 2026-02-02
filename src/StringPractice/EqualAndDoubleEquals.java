@@ -19,9 +19,9 @@ public static void main(String[] args) {
 	System.out.println(sb);
 	
 	
-	StringBuffer sf = new StringBuffer("Jainish");
-	sf.append("patel");
-	System.out.println(sf);
+//	StringBufferExample sf = new StringBufferExample("Jainish");
+//	sf.append("patel");
+//	System.out.println(sf);
 //	System.out.println(s.append("world"));
 //	
 	
