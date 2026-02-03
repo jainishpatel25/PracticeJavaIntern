@@ -12,5 +12,10 @@ public class Reverse {
 			rev += s.charAt(i);
 		}
 		System.out.println(rev);
+		
+		
+		
+		StringBuffer s1 = new StringBuffer("java");
+		System.out.println(s1.reverse());
 	}
 }
