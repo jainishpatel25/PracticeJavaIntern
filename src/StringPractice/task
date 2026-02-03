@@ -1,0 +1,62 @@
+🔹 Beginner Level
+Reverse a string without using built-in functions.
+Count the number of vowels and consonants in a string.
+Check if a string is a palindrome.
+Find the length of a string without using len() or similar functions.
+Convert a string to uppercase and lowercase manually.
+Count the frequency of each character in a string.
+
+🔹 Intermediate Level
+Remove all duplicate characters from a string.
+Find the first non-repeating character in a string.
+Check if two strings are anagrams of each other.
+Replace all spaces in a string with -.
+Find the longest word in a sentence.
+Count the number of words in a string.
+
+🔹 Advanced Level
+Implement a function to check if a string contains only digits.
+Find the longest palindrome substring in a given string.
+Write a program to rotate a string (e.g., "abcde" → "deabc").
+Find all permutations of a string.
+Implement substring search without using built-in functions (indexOf, find, etc.).
+Compress a string using run-length encoding (e.g., "aaabbc" → "a3b2c1").
+
+
+
+
+🔹 Possible Variations of the Question
+Remove duplicates but keep them sorted
+Instead of preserving the original order, output characters in alphabetical order.
+Example: "programming" → "agimnoprst".
+Remove duplicates but keep only the last occurrence
+Instead of keeping the first time a character appears, keep the last.
+Example: "jaaainiishhh" → "anish".
+Remove duplicates case-insensitively
+Treat uppercase and lowercase as the same.
+Example: "JavaJAVAj" → "jav".
+Remove duplicates and count frequency simultaneously
+Output both the unique characters and how many times they appeared.
+Example: "jaaainiishhh" → j(1) a(4) i(3) n(1) s(1) h(3).
+Remove duplicates but only for vowels/consonants
+Keep all consonants but remove duplicate vowels (or vice versa).
+Example: "jaaainiishhh" → "jains h" (unique vowels only).
+Remove duplicates without using extra strings
+Do it directly on a character array, modifying it in place.
+This tests your ability to work with arrays and indexes.
+Remove duplicates from words in a sentence
+Instead of characters, remove duplicate words.
+Example: "this is is a test test" → "this is a test".
+
+
+
+
+
+
+
+🔹 Coding/Practical Questions
+Write a program to reverse a string using StringBuilder or StringBuffer.
+Demonstrate append, insert, delete, replace, and reverse operations with StringBuilder.
+Show how to concatenate multiple strings efficiently using StringBuilder instead of +.
+Write code to remove vowels from a string using StringBuffer.
+Compare the performance of concatenation using String, StringBuilder, and StringBuffer.

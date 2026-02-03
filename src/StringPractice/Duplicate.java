@@ -4,17 +4,24 @@ public class Duplicate {
 
 	
 	public static void main(String[] args) {
-		
 		String str="jaaainiishhh";
-		
 		String result="";
-		
 		for(int i=0;i<str.length();i++) {
-			char c = str.charAt(i);
+			char ch = str.charAt(i);
 			
-			if (!result.contains(String.valueOf(c))) {
-			    result += c;
+			boolean exists = false;
+			for (int j = 0; j < result.length(); j++) {
+			    if (result.charAt(j) == ch) {
+			        exists = true;
+			        break;
+			    }
 			}
+			if (!exists) {
+			    result += ch;
+			}
+//			if (!result.contains(String.valueOf(c))) {
+//			    result += c;
+//			}
 
 		}
 		System.out.println(result);
