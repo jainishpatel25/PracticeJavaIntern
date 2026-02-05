@@ -17,6 +17,11 @@ package ArrayPractice;
 		oa[1].s = "patel";
 		oa[1].id = 102;
 		
+//		oa[2] = new ObjectArray();
+//		oa[2].s = "patel";
+//		oa[2].id = 102;
+		
+//		
 //		oa[3] = new ObjectArray();
 //		oa[3].s = "patel";
 //		oa[3].id = 102;
