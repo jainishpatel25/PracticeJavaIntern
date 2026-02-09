@@ -5,7 +5,7 @@ public class SecondHighest {
         int[] arr = {12, 35, 1, 10, 34, 1};
 
         // Initialize first and second highest
-        int first = Integer.MAX_VALUE;
+        int first = Integer.MIN_VALUE;
         int second = Integer.MIN_VALUE;
 
         for (int num : arr) {
