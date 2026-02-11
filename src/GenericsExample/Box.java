@@ -1,30 +1,5 @@
 package GenericsExample;
 
-//public class Box<T> {
-//	
-//	T id;
-//	T value;
-//	
-//	<T> void getBox(){
-//		System.out.println("Id is: " +id+ " and number is: "+value);
-//	}
-//	
-//	public static void main(String[] args) {
-//		
-//		Box<Integer> b1=new Box<>();
-//		b1.id = 23;
-//		b1.value = 12212;
-//		b1.getBox();
-//		
-//		Box<String> b2=new Box<>();
-//		b2.id = "12312";
-//		b2.value = "1321312";
-//		b2.getBox();
-//		
-//	}
-//}
-
-//Generic class definition with type parameter <T>
 class Box<T> {
  private T value;
 
@@ -47,8 +22,6 @@ class Box<T> {
  public void showType() {
      System.out.println("Type of T: " + value.getClass().getName());
  }
-
-
 
  public static void main(String[] args) {
      // Example 1: Box with Integer
@@ -73,4 +46,5 @@ class Box<T> {
      doubleBox.setValue(99.99);
      System.out.println("Updated Value: " + doubleBox.getValue());
  }
+
 }
