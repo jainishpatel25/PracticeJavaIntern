@@ -23,13 +23,17 @@ public class VectorExample {
 
         // 2. ADDING ELEMENTS
         vec.add("Python");            // Standard add
+        System.out.println("first element add : " +vec);
         vec.addElement("Java");       // Legacy Vector method
+        System.out.println("add element : " +vec);
         vec.add(1, "C++");            // Insert at index 1
+        System.out.println("add element Index 1 : " +vec);
+        
         
         Vector<String> tools = new Vector<>();
         tools.add("Git");
         tools.add("Docker");
-        vec.addAll(tools);            // Append a collection
+//        vec.addAll(tools);            // Append a collection
 
         // 3. ACCESSING & INFORMATION
         System.out.println("First Element: " + vec.firstElement());
@@ -40,14 +44,19 @@ public class VectorExample {
 
         // 4. SEARCHING
         boolean containsJava = vec.contains("Java");          // Returns true
-        int index = vec.indexOf("Docker");                   // Returns index
+      
+        int index = vec.indexOf("Java");                   // Returns index
 
+        System.out.println(containsJava);
+        System.out.println(index);
+        
+        
         // 5. UPDATING
         vec.set(0, "Rust");           // Replaces index 0 with "Rust"
 
         // 6. REMOVING
         vec.remove("Git");            // Remove by object
-        vec.remove(2);                // Remove by index
+//        vec.remove(2);                // Remove by index
         // vec.clear();               // Would remove all elements
 
         // 7. ITERATING (The Legacy Way)
@@ -64,5 +73,4 @@ public class VectorExample {
         System.out.println("\nFinal Vector: " + vec);		
 		
 	}
-
 }
