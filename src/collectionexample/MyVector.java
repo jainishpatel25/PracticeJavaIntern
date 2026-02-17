@@ -18,6 +18,8 @@ public class MyVector {
 		System.out.println("Vector V : " +v);
 		v.indexOf(12); 
 		
+		v.sort(null);
+		
 		
 //		Object v2 = v.clone(); // object return  type 
 		
